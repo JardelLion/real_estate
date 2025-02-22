@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="action_real_estate_top" model="ir.actions.act_window">
+            <field name="name">Properties top</field>
+            <field name="res_model">estate.property</field>
+            <field name="view_mode">list,form</field>
+
+        </record>
+        <menuitem id="real_estate_menu" name="Real State" sequence="10">
+            <menuitem id="real_estate_submenu" name="top state" action="action_real_estate_top"/>
+        </menuitem>
+    </data>
+</odoo>

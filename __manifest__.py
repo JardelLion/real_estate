@@ -6,7 +6,8 @@
     'author': 'My company',
     'depends': ["base"],
     'data': [
-        'security/ir.model.access.csv'
+        'security/ir.model.access.csv',
+        'views/menu.xml'
 
     ],
     'demo': [
